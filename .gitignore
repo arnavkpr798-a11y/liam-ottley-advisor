@@ -1,0 +1,21 @@
+# Runtime and credentials
+.venv/
+__pycache__/
+*.py[cod]
+.supadata-api-key
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# User collections and personal context stay local
+output/
+transcripts/
+timestamped/
+combined.txt
+*.zip
+*.zip.sha256
+personal-context.md
+private/
+.DS_Store
