@@ -28,7 +28,7 @@ python -m pip install -r requirements.txt
 python collector.py --pilot 3
 ```
 
-On Windows, use `py -3 -m venv .venv`, activate with `.venv\Scripts\Activate.ps1`, then run the same pip/Python commands. The `.command` launcher is for macOS with zsh. Double-click it after installing Python 3.10+; it creates its own virtual environment. `CODEX_PYTHON` may optionally identify another compatible Python executable.
+On Windows, use `py -3 -m venv .venv`, activate with `.venv\Scripts\Activate.ps1`, then run the same pip/Python commands. The `.command` launcher is for macOS with zsh. After downloading or cloning, run `chmod +x "Run Collector.command"` once, then double-click it with Python 3.10+ installed; it creates its own virtual environment. `CODEX_PYTHON` may optionally identify another compatible Python executable.
 
 The default channel is `https://www.youtube.com/@LiamOttley`. For another channel:
 
